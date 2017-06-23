@@ -8,3 +8,5 @@ sudo mv /etc/squid3/mime.conf.default /etc/squid3/mime.conf
 sudo mkdir /var/log/squid3
 sudo chmod -R 777 /var/log/squid3
 sudo squid
+mkdir /usr/lib/squid3
+mv basic_ncsa_auth /usr/lib/squid3/basic_ncsa_auth
